@@ -1,0 +1,19 @@
+.logocontainer{
+    margin: 2%;
+    margin-top: 0;
+}
+
+.tiltstyle{
+    border-radius:.25rem;
+    box-shadow:0px 0px 8px 2px rgba( 0, 0, 0, 0.2 );
+    background: linear-gradient(269deg, #d400ff 0%, #00FFA3 100%);
+}
+
+.Tilt-inner{
+    padding: 1rem;
+}
+
+.brain{
+    padding-top: 0.5rem;
+    width: 100px;
+}

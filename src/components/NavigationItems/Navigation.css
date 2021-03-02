@@ -1,0 +1,38 @@
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.signout{
+    font-size: 1.5rem;
+    text-decoration:none;
+    transition:color .15s ease-in;
+    opacity:1;
+    transition:opacity .15s ease-in;
+    color:black;
+    text-decoration:underline;
+    padding-right:5%;
+}
+
+.signout:link, .signout:visited, .signout:hover, .signout:active{
+    transition:color .15s ease-in;
+}
+
+.signout:focus{
+    transition:color .15s ease-in;
+    outline:1px dotted currentColor;
+}
+
+.signout:hover, .signout:focus{
+    opacity:.5;
+    transition:opacity .15s ease-in;
+}
+
+.signout:active{
+    opacity:.8;
+    transition:opacity .15s ease-out;
+}
+
+.signout:hover{
+    cursor: pointer;
+}
